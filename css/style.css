@@ -1,4 +1,5 @@
 body {
+  scrollbar-width: none;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
   height: 100vh;
@@ -329,3 +330,49 @@ a {
         width: auto; }
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
+          #rcorners1 {
+            border-radius: 25px;
+            background: url(/images/dnj.png);
+            padding: 20px;
+            width: 200px;
+            height: 150px;  
+            background-position: center;
+            background-repeat: repeat;
+          }
+          #rcorners2 {
+            border-radius: 25px;
+            background: url(/images/njsca.png);
+            background-color: white;
+            background-size: 95%;
+            padding: 20px; 
+            margin-left: 100px;
+            width: 200px;
+            height: 150px;  
+            background-position: center;
+            background-repeat: repeat;
+          }
+          #rcorners3 {
+            border-radius: 25px;
+            background: url(/images/MonmouthC.png);
+            background-size: 75%;
+            background-color: white;
+            padding: 20px; 
+            margin-left: 100px;
+            width: 200px;
+            height: 150px;  
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+          #rcorners4 {
+            border-radius: 25px;
+            background: url(/images/ma50y.jpg);
+            padding: 20px; 
+            margin-left: 100px;
+            width: 200px;
+            height: 150px;  
+            background-position: center;
+            background-repeat: repeat;
+          }
+          .scroll::-webkit-scrollbar {
+            display: none;
+          }
