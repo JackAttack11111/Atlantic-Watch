@@ -1,18 +1,8 @@
 <?php
 
-// Replace this with your own email address
-$to = 'jackkonar@icloud.com';
+if (  isset($_POST['submitbtn']) ) {
 
-function url(){
-  return sprintf(
-    "%s://%s",
-    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
-    $_SERVER['SERVER_NAME']
-  );
-}
-
-if($_POST) {
-
+   $to = 'jackkonar@icloud.com';
    $fname = trim(stripslashes($_POST['fname']));
    $lname = trim(stripslashes($_POST['fname']));
    $email = trim(stripslashes($_POST['email']));
